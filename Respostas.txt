@@ -1,7 +1,7 @@
 		PROVA Regular I
 
  Disciplina: Tópicos Avançados em Desenvolvimento Web Data: 26/03/2022
- Professor: Bruno Alves Reis Nascimento Turma: INF0084
+ Professor: Bruno Alves Reis Nascimento Turma: INFO084
  Aluna: Bárbara Eduarda Souza Menezes Matrícula: 20104019  
 
 1º)  1- Git Clone = é usado para copiar um repositório Git existente em um novo diretório local.
