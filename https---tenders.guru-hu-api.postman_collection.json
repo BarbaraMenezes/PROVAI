@@ -1,0 +1,255 @@
+{
+	"info": {
+		"_postman_id": "3cbe66b5-3fe4-43dc-9a55-7b2513e0513d",
+		"name": "https://tenders.guru/hu/api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET List tenders",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://tenders.guru/api/hu/tenders",
+					"protocol": "https",
+					"host": [
+						"tenders",
+						"guru"
+					],
+					"path": [
+						"api",
+						"hu",
+						"tenders"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get tender details",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://tenders.guru/api/hu/tenders/20",
+					"protocol": "https",
+					"host": [
+						"tenders",
+						"guru"
+					],
+					"path": [
+						"api",
+						"hu",
+						"tenders",
+						"20"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get tender source data",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://tenders.guru/api/hu/tenders/9/source_data",
+					"protocol": "https",
+					"host": [
+						"tenders",
+						"guru"
+					],
+					"path": [
+						"api",
+						"hu",
+						"tenders",
+						"9",
+						"source_data"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List tender notices",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://tenders.guru/api/hu/tenders/2/notices",
+					"protocol": "https",
+					"host": [
+						"tenders",
+						"guru"
+					],
+					"path": [
+						"api",
+						"hu",
+						"tenders",
+						"2",
+						"notices"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List tender documents",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://tenders.guru/api/hu/tenders/8/docs",
+					"protocol": "https",
+					"host": [
+						"tenders",
+						"guru"
+					],
+					"path": [
+						"api",
+						"hu",
+						"tenders",
+						"8",
+						"docs"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List notices",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://tenders.guru/api/hu/notices",
+					"protocol": "https",
+					"host": [
+						"tenders",
+						"guru"
+					],
+					"path": [
+						"api",
+						"hu",
+						"notices"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Notice details",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://tenders.guru/api/hu/notices/5",
+					"protocol": "https",
+					"host": [
+						"tenders",
+						"guru"
+					],
+					"path": [
+						"api",
+						"hu",
+						"notices",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Notice source data",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://tenders.guru/api/hu/notices/10/source_data",
+					"protocol": "https",
+					"host": [
+						"tenders",
+						"guru"
+					],
+					"path": [
+						"api",
+						"hu",
+						"notices",
+						"10",
+						"source_data"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List notice sections",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://tenders.guru/api/hu/notices/1/sections",
+					"protocol": "https",
+					"host": [
+						"tenders",
+						"guru"
+					],
+					"path": [
+						"api",
+						"hu",
+						"notices",
+						"1",
+						"sections"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Section details",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://tenders.guru/api/hu/sections/16",
+					"protocol": "https",
+					"host": [
+						"tenders",
+						"guru"
+					],
+					"path": [
+						"api",
+						"hu",
+						"sections",
+						"16"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Section source data",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://tenders.guru/api/hu/sections/12/source_data",
+					"protocol": "https",
+					"host": [
+						"tenders",
+						"guru"
+					],
+					"path": [
+						"api",
+						"hu",
+						"sections",
+						"12",
+						"source_data"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

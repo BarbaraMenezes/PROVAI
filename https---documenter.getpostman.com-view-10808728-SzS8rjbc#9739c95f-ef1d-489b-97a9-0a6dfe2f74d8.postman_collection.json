@@ -1,0 +1,289 @@
+{
+	"info": {
+		"_postman_id": "7a709a68-1c2c-4542-a146-9c3678ff4027",
+		"name": "https://documenter.getpostman.com/view/10808728/SzS8rjbc#9739c95f-ef1d-489b-97a9-0a6dfe2f74d8",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Default",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.covid19api.com/",
+					"protocol": "https",
+					"host": [
+						"api",
+						"covid19api",
+						"com"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Summary",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.covid19api.com/summary",
+					"protocol": "https",
+					"host": [
+						"api",
+						"covid19api",
+						"com"
+					],
+					"path": [
+						"summary"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Countries",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.covid19api.com/countries",
+					"protocol": "https",
+					"host": [
+						"api",
+						"covid19api",
+						"com"
+					],
+					"path": [
+						"countries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Day One",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.covid19api.com/dayone/country/south-africa/status/confirmed",
+					"protocol": "https",
+					"host": [
+						"api",
+						"covid19api",
+						"com"
+					],
+					"path": [
+						"dayone",
+						"country",
+						"south-africa",
+						"status",
+						"confirmed"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Day One All Status",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.covid19api.com/dayone/country/south-africa",
+					"protocol": "https",
+					"host": [
+						"api",
+						"covid19api",
+						"com"
+					],
+					"path": [
+						"dayone",
+						"country",
+						"south-africa"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Day One Live",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.covid19api.com/dayone/country/south-africa/status/confirmed/live",
+					"protocol": "https",
+					"host": [
+						"api",
+						"covid19api",
+						"com"
+					],
+					"path": [
+						"dayone",
+						"country",
+						"south-africa",
+						"status",
+						"confirmed",
+						"live"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Day One Total",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.covid19api.com/total/dayone/country/south-africa/status/confirmed",
+					"protocol": "https",
+					"host": [
+						"api",
+						"covid19api",
+						"com"
+					],
+					"path": [
+						"total",
+						"dayone",
+						"country",
+						"south-africa",
+						"status",
+						"confirmed"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Day One Total All Status",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.covid19api.com/total/dayone/country/south-africa",
+					"protocol": "https",
+					"host": [
+						"api",
+						"covid19api",
+						"com"
+					],
+					"path": [
+						"total",
+						"dayone",
+						"country",
+						"south-africa"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "By Country",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.covid19api.com/country/south-africa/status/confirmed?from=2020-03-01T00:00:00Z&to=2020-04-01T00:00:00Z",
+					"protocol": "https",
+					"host": [
+						"api",
+						"covid19api",
+						"com"
+					],
+					"path": [
+						"country",
+						"south-africa",
+						"status",
+						"confirmed"
+					],
+					"query": [
+						{
+							"key": "from",
+							"value": "2020-03-01T00:00:00Z"
+						},
+						{
+							"key": "to",
+							"value": "2020-04-01T00:00:00Z"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "By Country All Status",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.covid19api.com/country/south-africa?from=2020-03-01T00:00:00Z&to=2020-04-01T00:00:00Z",
+					"protocol": "https",
+					"host": [
+						"api",
+						"covid19api",
+						"com"
+					],
+					"path": [
+						"country",
+						"south-africa"
+					],
+					"query": [
+						{
+							"key": "from",
+							"value": "2020-03-01T00:00:00Z"
+						},
+						{
+							"key": "to",
+							"value": "2020-04-01T00:00:00Z"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "basic"
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
